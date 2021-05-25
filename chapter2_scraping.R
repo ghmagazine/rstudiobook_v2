@@ -160,33 +160,49 @@ webElem <- remDr$findElement("css selector", "#block-kiwatotetansu > div > div.b
 # 選択した要素をクリック
 webElem$clickElement()
 
+Sys.sleep(10)
+
 # 「境界データダウンロード」をクリック
 webElem <- remDr$findElement("css selector", "body > div.dialog-off-canvas-main-canvas > div > main > div.row.l-estatRow > section > div.region.region-content > article > div > div > section > ul > li > a:nth-child(5)")
 webElem$clickElement()
+
+Sys.sleep(10)
 
 # 「小地域」をクリック
 webElem <- remDr$findElement("css selector", "#main > section > div.js-search-detail > ul > li:nth-child(1) > a")
 webElem$clickElement()
 
+Sys.sleep(10)
+
 #「国勢調査」をクリック
 webElem <- remDr$findElement("css selector", "#main > section > div.js-search-detail > ul > li:nth-child(1) > a")
 webElem$clickElement()
+
+Sys.sleep(10)
 
 # 「2015年」をクリック
 webElem <- remDr$findElement("css selector", "#main > section > div.js-search-detail > div.stat-search_result-list.js-items > ul:nth-child(1) > li > div.stat-search_result-item2-main.fix.js-row_open_second-parent.js-gisdownload-tabindex > span.stat-plus_icon.js-plus.js-row_open_second.__loaded")
 webElem$clickElement()
 
+Sys.sleep(10)
+
 # 「小地域（町丁・字等別集計）」をクリック
 webElem <- remDr$findElement("css selector", "#main > section > div.js-search-detail > div.stat-search_result-list.js-items > ul:nth-child(1) > li > div.stat-search_result-item2-sub.js-child-items.js-row > ul > li:nth-child(1) > div > span.stat-title-has-child > span > a")
 webElem$clickElement()
+
+Sys.sleep(10)
 
 # 「世界測地系緯度経度・Shape形式」をクリック
 webElem <- remDr$findElement("css selector", "#main > section > div.js-search-detail > div.stat-search_result-list.js-items > ul:nth-child(1) > li > a")
 webElem$clickElement()
 
+Sys.sleep(10)
+
 # 「神奈川県」をクリック
 webElem <- remDr$findElement("css selector", "#main > section > div.js-search-detail > div > div > article:nth-child(14) > div > ul > a > li:nth-child(1)")
 webElem$clickElement()
+
+Sys.sleep(10)
 
 # 神奈川全域の「世界測地系緯度経度・Shape形式」をクリック
 webElem <- remDr$findElement("css selector", "#main > section > div.js-search-detail > div > div > article:nth-child(1) > div > ul > li:nth-child(3) > a")
