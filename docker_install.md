@@ -18,7 +18,9 @@ output:
 ![図1 Dockerのトップページ](./docker_install_img/docker_top.png)
 
 
-「Download for Mac - Intel Chip」をクリックしてインストールファイルをダウンロードします（図2）。
+「Download for Mac - Intel Chip」をクリックしてインストールファイルをダウンロードします（図2）[^m1mac]。
+
+[^m1mac]: 2020年に発売された M1 Macの場合、マウスオーバーで現れる「Download for Mac - Apple Chip」からダウンロードし、インストールする必要があります。
 
 ![図2 「Download for Mac - Intel Chip」をクリック](./docker_install_img/docker_for_mac.png)
 
@@ -51,6 +53,8 @@ Docker version 20.10.6, build 370c289
 ```
 
 ## Windows
+ここでは、Windows 10 Home Edition を基準に説明をします。他のWindowsの場合、下記の方法では一部表示が異なる、またはインストールに失敗することがあります。
+
 ### インストール手順
 [公式ページ](https://www.docker.com/)にアクセスし、「Get Started」をクリックします（図6）。このとき、「Sign in」というボタンもありますが、アカウントを作成するといった作業は必要ありません。
 
