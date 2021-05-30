@@ -1,10 +1,20 @@
 # 『改訂2版 RユーザのためのRStudio[実践]入門』のサンプルコード・正誤表
 
+- [`errata.md`](./errata.md): 正誤表
+- `sample_code/`
+    - [`chapter1_rstudio.R`](./sample_code/chapter1_rstudio.R): 1章のサンプルコード
+    - [`chapter2_scraping.R`](./sample_code/chapter2_scraping.R): 2章のサンプルコード
+    - [`chapter3_manipulation.R`](./sample_code/chapter3_manipulation.R): 3章のサンプルコード
+    - [`chapter4_ggplot2.R`](./sample_code/chapter4_ggplot2.R): 4章のサンプルコード
+    - [`appendixA.R`](./sample_code/appendixA.R): 付録Aのサンプルコード
+    - [`appendixB.R`](./sample_code/appendixB.R): 付録Bのサンプルコード
+- [`docker_install.md`](./docker_install.md): Dockerのインストール方法
+
 ## 書籍情報
 
-松村優哉、湯谷啓明、紀ノ定保礼、前田和寛
-B5変／296ページ／本体価格2,980円＋税
-ISBN 978-4-297-12170-9
+松村優哉、湯谷啓明、紀ノ定保礼、前田和寛  
+B5変／296ページ／本体価格2,980円＋税  
+ISBN 978-4-297-12170-9  
 技術評論社、2021年発行
 
 <details>
