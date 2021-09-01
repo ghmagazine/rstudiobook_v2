@@ -29,7 +29,7 @@ title <- html_text(url_title)
 title
 
 title2 <- read_html(kabu_url) %>%
-  html_element(css = "html > head > title") %>%
+  html_element(css = "head > title") %>%
   html_text()
 
 ## パイプ演算子
